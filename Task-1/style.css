@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('./images/bg.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional: makes the image stay in place while scrolling */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white; /* Optional: improve text contrast */
+}
+
+.nav__header {
+  padding: 2rem;
+  color: white;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.logo span {
+  color: #ffb400;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding: 1rem;
+} 
+
+.images img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+
+p a {
+  color: #ffd700;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p {
+  text-align: center;
+}
+
+
+p a:hover {
+  text-decoration: underline;
+  color: #ffb400;
+}
+
+
+.button-container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: #0a2342;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1e3a8a;
+}
