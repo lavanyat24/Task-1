@@ -81,6 +81,31 @@ p a:hover {
   transform: scale(1.05);
 }
 
+/* book section */
+
+.book-btn-container {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.book-btn {
+  background-color: #ffb400;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-weight: bold;
+}
+
+.book-btn:hover {
+  background-color: #e09e00;
+  transform: scale(1.05);
+}
+
+
 /* Responsive Styles */
 
 @media (max-width: 768px) {

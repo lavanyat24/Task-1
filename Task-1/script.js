@@ -9,3 +9,8 @@ document.getElementById("MahabalipuramBeach").addEventListener("click", function
 document.getElementById("PanchaRathas").addEventListener("click", function () {
   alert("Pancha Rathas:\nMonolithic rock-cut temples shaped like chariots, each carved from a single granite stone.");
 });
+
+
+function bookNow() {
+  alert("Thank you for Booking!");
+}
